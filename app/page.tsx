@@ -56,7 +56,7 @@ const successStories = [
     quote: "Created a comprehensive leadership program that's now used by 50+ organizations.",
   },
   {
-    name: "Anita Desai",
+    name: "Anita Desai1",
     role: "HR Compliance Officer",
     company: "Manufacturing",
     product: "HR Policy Templates",
