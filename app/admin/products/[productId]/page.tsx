@@ -194,7 +194,7 @@ export default function ProductDetailPage({ params }: { params: { productId: str
                     <div className="flex items-center gap-2">
                       <Star className="w-4 h-4 text-gray-400" />
                       <span>
-                        {product.rating} ({product.reviews.length} reviews)
+                        {product.rating} ({product.recentReviews.length} reviews)
                       </span>
                     </div>
                     <div className="flex items-center gap-2">
@@ -319,11 +319,11 @@ export default function ProductDetailPage({ params }: { params: { productId: str
             <TabsContent value="reviews">
               <Card>
                 <CardHeader>
-                  <CardTitle>Customer Reviews ({product.reviews.length})</CardTitle>
+                  <CardTitle>Customer Reviews ({product.recentReviews.length})</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-4">
-                    {product.reviews.map((review, index) => (
+                    {product.recentReviews.map((review, index) => (
                       <div key={index} className="border-b pb-4 last:border-b-0">
                         <div className="flex items-center justify-between mb-2">
                           <div className="flex items-center gap-2">
