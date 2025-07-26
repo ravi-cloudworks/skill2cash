@@ -117,7 +117,7 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-white">
-      <Header userType="visitor" />
+      <Header userType="creator" />
 
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-50 via-white to-purple-50 py-20">
