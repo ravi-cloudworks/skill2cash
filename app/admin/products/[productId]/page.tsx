@@ -55,7 +55,7 @@ export default function ProductDetailPage({ params }: { params: { productId: str
       { customer: "priya.s@email.com", amount: 29.99, date: "1 day ago", country: "India" },
       { customer: "thomas.k@email.com", amount: 29.99, date: "2 days ago", country: "Germany" },
     ],
-    reviews: [
+    recentReviews: [
       {
         customer: "John D.",
         rating: 5,
